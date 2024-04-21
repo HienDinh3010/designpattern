@@ -1,0 +1,8 @@
+Advantage and disadvantage of xml parse in normal approaching way with composite pattern way:
+Advantages:
+- Provide a design which displays the nested object structures.
+- Lean and easy to understand program code
+
+Disadvantages:
+- Implementation of component interfaces is challenging.
+- Making adjustments to composite features can be cumbersome.

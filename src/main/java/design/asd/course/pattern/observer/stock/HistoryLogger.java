@@ -1,0 +1,16 @@
+package design.asd.course.pattern.observer.stock;
+
+public class HistoryLogger extends Observer {
+
+    public HistoryLogger(StockService stockService) {
+        super(stockService);
+    }
+
+    public void log(Stock stock) {
+        System.out.println("HistoryLogger log stock :" + stock);
+    }
+    @Override
+    void update() {
+        Stock stock = stockService.getLastChangedStock();
+    }
+}
