@@ -2,7 +2,7 @@ package design.asd.course.pattern.decorator.decoratingacoffee;
 
 public class CoffeeDecorator implements CoffeeComponent {
 
-    private CoffeeComponent coffeeComponent;
+    protected CoffeeComponent coffeeComponent;
 
     public CoffeeDecorator(CoffeeComponent coffeeComponent) {
         this.coffeeComponent = coffeeComponent;

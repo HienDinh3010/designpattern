@@ -8,6 +8,7 @@ public class Egg extends CoffeeDecorator {
 
     @Override
     public void description() {
+        coffeeComponent.description();
         System.out.println("Egg coffee description");
     }
 }

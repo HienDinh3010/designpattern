@@ -8,6 +8,7 @@ public class Milk extends CoffeeDecorator {
 
     @Override
     public void description() {
+        coffeeComponent.description();
         System.out.println("Milk coffee description");
     }
 }
